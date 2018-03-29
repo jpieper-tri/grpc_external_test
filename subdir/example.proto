@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package grpc_external_example.subdir;
+
+message Request {
+}
+
+message Response {
+}
+
+service Example {
+  rpc Send(Request) returns (Response);
+}
